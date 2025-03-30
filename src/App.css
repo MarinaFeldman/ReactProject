@@ -2,7 +2,6 @@ body {
   background: url('photo-backgroung.avif');
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .App {
@@ -30,10 +29,10 @@ p {
   justify-content: center;
   text-wrap: wrap;
 }
+
 h1,h2,h3,h4, .headder  {
   display: flex;
   justify-content: center;
-
 }
 
 .button-box {
@@ -73,15 +72,15 @@ input {
 }
 
 .slide-box {
-display: flex;
-justify-content: center;
-margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
 }
+
 .btn {
   background-color: transparent;
   border: none;
   font-size: 20px;
-
 }
 
 text {
@@ -97,13 +96,13 @@ text {
   margin-left: 50px;
   margin-right: 50px;
 }
-.footer {
-background-color: #26929a;
-display: flex;
-justify-content: end;
-padding: 10px;
-}
 
+.footer {
+  background-color: #26929a;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
 
 .content {
   flex: 1;

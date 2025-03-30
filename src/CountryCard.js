@@ -9,7 +9,6 @@ const CountryCard = ({ country, city, description, dish, recipeLink,  CountryIma
       <h3>{city}</h3>
 
 <div className="description">
-      {/* ✅ Проверяем, массив ли `description`, и превращаем в массив, если нет */}
       {(Array.isArray(description) ? description : [description]).map((paragraph, index) => (
         <p key={index}>{paragraph}</p>
       ))}

@@ -10,7 +10,11 @@ function ContactMe() {
       <Likeus />
     </div>
     <div>
-    <p>Send me email: <a href="mailto:email@marina.com">email@marina.com</a></p>
+    <p>
+    Send me email:&nbsp;
+
+    <a href="mailto:marina.marinafeldman@gamil.com">emailTo@Marina.com</a>
+    </p>
     </div>
     </div>
   );

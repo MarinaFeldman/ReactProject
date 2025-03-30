@@ -11,13 +11,12 @@ import Travel from "./Travel";
 import Recipes from "./Recipes";
 import ContactMe from "./ContactMe";
 import "./App.css";
-import Footer from "./Footer";
+
 
 function App() {
   return (
     <Router>
       <div className="wrapper">
-        {/* Навигация */}
         <nav>
           <Link to="/" className="link">Home</Link>
           <Link to="/travel" className="link">Travel</Link>
@@ -33,7 +32,7 @@ function App() {
             <Route path="/contactMe" element={<ContactMe />} />
           </Routes>
         </div>
-       </div>
+      </div>
 
     </Router>
   );

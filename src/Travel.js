@@ -1,7 +1,7 @@
 import { useState } from "react";
 import CountryCard from "./CountryCard";
 import { travelData } from "./TravelData";
-import Footer from "./Footer";
+
 
 
 const Travel = () => {

@@ -22,11 +22,7 @@ return(
 <div className="button-box">
     <button className= "buttonRead" onClick={() => navigate("/Travel")}>Start reading..</button>
 </div>
-
 </div>
-
-)
-
-}
+)}
 
 export default Home;

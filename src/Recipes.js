@@ -4,9 +4,8 @@ import RecipesRecipes from "./RecipesRecipes";
 
 
 function Recipes() {
-  // создаем состояние которое содержит поиск. Поиск по буквам, словам.
-  const [mySearch, setMySearch] = useState(""); // стрим ("") т.к текст
-  const [myRecipes, setMyRecipes] = useState([]); // Renamed to setMyRecipes
+  const [mySearch, setMySearch] = useState("");
+  const [myRecipes, setMyRecipes] = useState([]);
   const [wordSubmited, setWordSubmited] = useState("pailla");
   useEffect(() => {
     const getRecepie = async () => {
