@@ -42,13 +42,14 @@ function Recipes() {
             onChange={myRecepieSearch}
             value={mySearch}
           />
+          <div className="container">
+            <button className= "buttonRead" >SEARCH RECIPE</button>
+          </div>
+
         </form>
       </div>
 
-      <div className="container">
-        <button className= "buttonRead" onClick={finalSearch}>SEARCH RECIPE</button>
-      </div>
-
+     
       {myRecipes.map((element, index) => (
         <RecipesRecipes key={index}
           label={element.recipe.label}

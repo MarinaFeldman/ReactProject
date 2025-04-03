@@ -1,4 +1,4 @@
-import { useState } from "react";
+import Slider from "./Slider";
 
 const TravelSlidesLisbon = () => {
 
@@ -11,21 +11,9 @@ const TravelSlidesLisbon = () => {
 ];
 
 
-  const [current, setCurrent] = useState(0);
-
-  const next = () => {
-    setCurrent((current + 1) % travelImages.length);
-  };
-
-  const previous = () => {
-    setCurrent((current - 1 + travelImages.length) % travelImages.length);
-  };
-
   return (
-    <div className="slide-box">
-      <button className="btn" onClick={previous}>⬅️</button>
-      <img className="mallorca" src={travelImages[current]} alt={`slide-${current}`} />
-      <button className="btn" onClick={next}>➡️</button>
+    <div>
+        <Slider images={travelImages} />
     </div>
   );
 };

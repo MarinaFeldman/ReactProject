@@ -107,4 +107,3 @@ dish:[
 ];
 
 export default travelData;
-

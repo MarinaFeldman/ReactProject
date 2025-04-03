@@ -1,32 +1,26 @@
-import { Component } from "react";
+import React, { useState } from "react";
 import heart1 from "./heart.png";
-import heart2 from "./hearts.png"
+import heart2 from "./hearts.png";
 
+const Likeus = () => {
+  const [message, setMessage] = useState("Like my page");
+  const [image, setImage] = useState(heart1);
 
-export class Likeus extends Component{
-state = {
-massage:"Like my page",
-image: heart1
-} 
+  const heartClicked = () => {
+    setMessage("Love you too!");
+    setImage(heart2);
+  };
 
-heartClicked = () => {
-    this.setState({
-        massage:"Love you too!",
-        image: heart2
-    })
-}
-
-
-render(){
-return(
+  return (
+<div className="likeUs">
 <div>
-<div> 
-{this.state.massage}
-
-<img  onClick = {this.heartClicked} src={this.state.image} alt="heart" width="40px"/>
+{message}
 </div>
+<div>
+<img onClick={heartClicked} src={image} alt="heart" width="40px" />
+</div>   
 </div>
+  );
+};
 
-)}
-}
-
+export default Likeus;

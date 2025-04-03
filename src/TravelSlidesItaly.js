@@ -1,4 +1,4 @@
-import { useState } from "react";
+import Slider from "./Slider";
 
 const TravelSlidesItaly = () => {
 
@@ -10,23 +10,10 @@ const TravelSlidesItaly = () => {
 "https://images.unsplash.com/photo-1542738749-f1fffbbe3c10?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ];
 
-
-  const [current, setCurrent] = useState(0);
-
-  const next = () => {
-    setCurrent((current + 1) % travelImages.length);
-  };
-
-  const previous = () => {
-    setCurrent((current - 1 + travelImages.length) % travelImages.length);
-  };
-
   return (
-    <div className="slide-box">
-      <button className="btn" onClick={previous}>⬅️</button>
-      <img className="mallorca" src={travelImages[current]} alt={`slide-${current}`} />
-      <button className="btn" onClick={next}>➡️</button>
-    </div>
+  <div>
+    <Slider images={travelImages} />
+  </div>
   );
 };
 

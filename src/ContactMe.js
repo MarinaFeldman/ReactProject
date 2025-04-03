@@ -1,14 +1,14 @@
 import React from 'react';
-import { Likeus } from './Likeus';
 import "./App.css";
+import Likeus from './Likeus';
+
 
 
 function ContactMe() {
   return (
+
     <div>
-    <div className='likeUs'>
       <Likeus />
-    </div>
     <div>
     <p>
     Send me email:&nbsp;
