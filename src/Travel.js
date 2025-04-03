@@ -1,6 +1,6 @@
 import { useState } from "react";
 import CountryCard from "./CountryCard";
-import { travelData } from "./travelData";
+import travelData from "./travetData";
 
 
 
