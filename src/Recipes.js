@@ -32,7 +32,7 @@ function Recipes() {
   return (
     <div className="App">
       <div>
-        <h1>Find a Recipe</h1>
+        <h1>FIND A RECIPES</h1>
       </div>
       <div>
         <form onSubmit={finalSearch}>

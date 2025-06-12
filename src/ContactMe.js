@@ -11,7 +11,7 @@ function ContactMe() {
       <Likeus />
     <div>
     <p>
-    Send me email:&nbsp;
+    SEND ME EMAIL:&nbsp;
 
     <a href="mailto:marina.marinafeldman@gamil.com">emailTo@Marina.com</a>
     </p>

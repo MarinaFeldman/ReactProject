@@ -48,6 +48,14 @@ h1,h2,h3,h4, .headder  {
   border-radius:  50px;
   background-color: #99b0b5;
 }
+.buttonReadSmall {
+  padding: 10px;
+  margin: 10px;
+  font-weight: bolder;
+  color: black;
+  border-radius:  20px;
+  background-color: #99b0b5;
+}
 
 
 .seeRecepieButton {
@@ -117,3 +125,43 @@ ul {
   margin-top: 100px;
 }
 
+.cartIcon{
+  width: 70px;
+}
+
+.souvenirBox {
+display: flex;
+justify-content: space-around;;
+}
+
+.trashIcon {
+    width: 70px;
+}
+
+.cartBox {
+  display: flex;
+}
+
+.shop{
+display: flex;
+justify-content: space-around;
+}
+
+.shopItem {
+display: flex;
+justify-content: space-around;
+padding: 40px;
+}
+
+
+.dishImage {
+width: 40px;
+}
+
+.souvrnirCard {
+margin-top: 20px;
+}
+
+.changeQuantity {
+display: flex;
+}

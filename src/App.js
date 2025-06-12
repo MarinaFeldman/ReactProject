@@ -11,6 +11,7 @@ import Travel from "./Travel";
 import Recipes from "./Recipes";
 import ContactMe from "./ContactMe";
 import "./App.css";
+import Shop from "./Shop";
 
 
 function App() {
@@ -18,10 +19,11 @@ function App() {
     <Router>
       <div className="wrapper">
         <nav>
-          <Link to="/" className="link">Home</Link>
-          <Link to="/travel" className="link">Travel</Link>
-          <Link to="/recipes" className="link">Recipes</Link>
-          <Link to="/contactMe" className="link">Contact Me</Link>
+          <Link to="/" className="link">HOME</Link>
+          <Link to="/travel" className="link">TRAVEL</Link>
+          <Link to="/recipes" className="link">RECIPES</Link>
+          <Link to="/shop" className="link">SHOP</Link>
+          <Link to="/contactMe" className="link">CONTACT ME ❤️</Link>
         </nav>
 
         <div>
@@ -29,6 +31,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/travel" element={<Travel />} />
             <Route path="/recipes" element={<Recipes />} />
+            <Route path="/shop" element={<Shop/>} />
             <Route path="/contactMe" element={<ContactMe />} />
           </Routes>
         </div>
