@@ -12,7 +12,7 @@ addItemToCart:(state, action) => {
         id: timeId,
         souvenirId: action.payload.souvenir.id,
         quantity:action.payload.quantity,
-        totalPrice: action.payload.quantity = action.payload.souvenir.price
+        totalPrice: action.payload.quantity * action.payload.souvenir.price
     })
 },
 

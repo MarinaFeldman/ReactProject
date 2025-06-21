@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import heart1 from "./heart.png";
-import heart2 from "./hearts.png";
+import heart1 from "../heart.png";
+import heart2 from "../hearts.png";
 
 const Likeus = () => {
   const [message, setMessage] = useState("Like my page");

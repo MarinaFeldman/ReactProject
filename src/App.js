@@ -6,12 +6,12 @@ import {
   Link
 } from "react-router-dom";
 
-import Home from "./Home";
-import Travel from "./Travel";
-import Recipes from "./Recipes";
-import ContactMe from "./ContactMe";
-import "./App.css";
-import Shop from "./Shop";
+import Home from "./pages/Home";
+import Travel from "./pages/Travel";
+import Recipes from "./pages/Recipes";
+import ContactMe from "./pages/ContactMe";
+import Shop from "./pages/Shop";
+
 
 
 function App() {

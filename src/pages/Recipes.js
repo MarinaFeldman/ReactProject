@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import "./App.css";
-import RecipesRecipes from "./RecipesRecipes";
+import "../App.css";
+import RecipesRecipes from "../RecipesRecipes";
 
 
 function Recipes() {

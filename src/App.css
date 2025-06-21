@@ -47,6 +47,7 @@ h1,h2,h3,h4, .headder  {
   color: black;
   border-radius:  50px;
   background-color: #99b0b5;
+  text-decoration: none;
 }
 .buttonReadSmall {
   padding: 10px;

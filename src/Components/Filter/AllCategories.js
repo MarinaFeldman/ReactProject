@@ -5,9 +5,10 @@ const AllCategories =() => {
         <div >
         <h1>SOUVENIRS</h1>
 <div className="souvenirBox">
-        {['ALL','SPAIN','ITALIA','GREECE','ALBANIA', 'PORTUGAL'].
+        {['ALL','SPAIN','ITALIA','GREECE','ALBANIA', 'PORTUGAL']
 
-        map(category => <Filter category={category} />)
+        .map(category => <Filter key={category}
+        category={category} />)
         }
 </div>      
         </div>
